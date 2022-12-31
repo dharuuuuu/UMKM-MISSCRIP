@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./foto/logo.jpg">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="contact_us.css">
+
+    <title>MISSCRIP</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+         <div class="grad-bar"></div>
+         <nav class="navbar">
+           <img src="./foto/logo.jpg" alt="Company Logo">
+           <h1>MISSCRIP</h1>
+           <div class="menu-toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           </div>
+           <ul class="nav no-search">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="product.html">Product</a></li>
+            <li class="nav-item"><a href="testimoni.html">Testimoni</a></li>
+            <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+           </ul>
+         </nav>
+         </div>
+         <section class="headline">
+            <div class="hero">
+                <h1>Menu Product MISSCRIP</h1>
+                <p>Kumpulan foto dari product hasil buatan MISSCRIP</p>
+            </div>
+         </section>
+
+        <div class="title">
+            <h2 class="sub_title">Menu Product</h2>
+            <div class="line_small"></div>
+            <div class="line_big"></div>
+            <div class="line_small"></div>
+            <br>
+            <p>Produk Misscrip merupakan kripik kulit kebab yang berasal dari olahan kulit kebab yang mempunyai komposisi dijamin halal karena terdiri dari komposisi sebagai berikut: Kulit kebab,Bumbu perasa, Minyak. Produk Misscrip cocok sekali untuk dibuat camilan bersama teman maupun keluarga, cocok dimakan saat bosan, juga cocok dijadikan pendamping saat nonton.</p>
+        </div>
+        
+        <div class="container_product">
+         <ul class="card-list">
+	
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/pedas.jpeg');" >
+                    <h4>PEDAS</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/bbq.jpeg');" >
+                    <h4>BARBEQUE</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/keju.jpeg');" >
+                    <h4>KEJU</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/balado.jpeg');" >
+                    <h4>BALADO</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/pedas_manis.jpeg');" >
+                    <h4>PEDAS MANIS</h4>
+                </div>
+            </li>
+
+            <li class="card">
+                <div class="card-image"
+                    style="background-image: url('./foto/jagung_bakar.jpeg');" >
+                    <h4>JAGUNG BAKAR</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+       <!-- footer -->
+    <footer>
+        <div class="center_items">      
+            <p>Copyright 2022 © By <span>MISSCRIP</span></p>
+            <br>
+        </div>
+    </footer>
+    <!-- batas akhir footer -->
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $("#search-icon").click(function() {
+        $(".nav").toggleClass("search");
+        $(".nav").toggleClass("no-search");
+        $(".search-input").toggleClass("search-active");
+      });
+      
+      $('.menu-toggle').click(function(){
+         $(".nav").toggleClass("mobile-nav");
+         $(this).toggleClass("is-active");
+      });
+      
+</script>
+</html>

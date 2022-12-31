@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./foto/logo.jpg">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="contact_us.css">
+    <link rel="stylesheet" href="testimoni.css">
+    
+    <title>MISSCRIP</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+         <div class="grad-bar"></div>
+         <nav class="navbar">
+           <img src="./foto/logo.jpg" alt="Company Logo">
+           <h1>MISSCRIP</h1>
+           <div class="menu-toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           </div>
+           <ul class="nav no-search">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="product.html">Product</a></li>
+            <li class="nav-item"><a href="testimoni.html">Testimoni</a></li>
+            <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+           </ul>
+         </nav>
+         </div>
+         <section class="headline">
+            <div class="hero">
+                <h1>Keripik Kulit Kebab</h1>
+                <p>Lezat dan bergizi, dijamin pasti ketagihan</p>
+            </div>
+         </section>
+         <div class="container" id="part_2">    
+            <div class="text_biodata">
+                <h2>SEJARAH</h2>
+                <article>
+                Pada awalnya MISSCRIP merupakan produk buatan sendiri yang dijual oleh owner di SMP cucunya pada tahun 2014, lalu pada tahun 2015 produk ini diangkat UMKM Disperindag (Dinas Perindustrian dan Perdagangan) sehingga bisa menjadi produk yang lumayan besar seperti sekarang.
+                </article>
+    
+                <div class="contact_me">
+                    <a href="contact_us.html"><button>Contact Us</button></a>
+                </div>
+
+                <aside>
+                    <div class="owner_title">
+                        <h3>Owner: Kasiami, 69 Tahun</h3> 
+                    </div>
+
+                    <img class="owner_foto" src="foto/owner.jpg" alt="biodata">
+
+                    <div class="admin_title">
+                        <h3>Admin Misscrip: Lila Adilah</h3> 
+                    </div>
+
+                    <img class="admin_foto" src="foto/admin.jpg" alt="biodata">
+                </aside>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- batas akhir part 2 -->
+       </div>
+
+       <!-- footer -->
+    <footer class="footer_home">
+        <div class="center_items">      
+            <p>Copyright 2022 © By <span>MISSCRIP</span></p>
+            <br>
+        </div>
+    </footer>
+    <!-- batas akhir footer -->
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $("#search-icon").click(function() {
+        $(".nav").toggleClass("search");
+        $(".nav").toggleClass("no-search");
+        $(".search-input").toggleClass("search-active");
+      });
+      
+      $('.menu-toggle').click(function(){
+         $(".nav").toggleClass("mobile-nav");
+         $(this).toggleClass("is-active");
+      });
+</script>
+</html>

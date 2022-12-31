@@ -1,0 +1,189 @@
+.gmap_canvas {
+    border: 4px solid black;
+    margin-top: 100px;
+    width: 40%;
+    position: relative;
+    left: 51%;
+    border-radius: 15px;
+}
+
+.text_contact {
+    position: absolute;
+    width: 40%;
+    margin-left: 7%;
+    z-index: 5;
+}
+
+.judul_contact {
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color: rgb(50, 50, 50);
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.titik_dua {
+    color: rgb(206, 179, 27);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.alamat {
+    color: rgba(0,0,0,.9);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.jam_buka {
+    color: rgba(0,0,0,.9);
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.sosmed {
+    color: rgba(0,0,0,.9);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.ig {
+    color: rgb(197, 85, 104);
+    transition: font-weight 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.ig:hover {
+    font-weight: 900;
+}
+
+.tiktok {
+    color: rgb(37, 103, 158);
+    transition: font-weight 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.tiktok:hover {
+    font-weight: 900;
+}
+
+.order_now button {
+    background-color: rgb(206, 179, 27);
+    color: white;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    border-color: transparent;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-out;
+    z-index: 5;
+    margin-top: 15px;
+}
+.order_now button:hover{
+    background-color: rgb(172, 149, 23);
+}
+
+
+@media screen and (max-width: 800px) {
+    .container_contact {
+        margin-bottom: 340px;
+    }
+
+    .gmap_canvas {
+        left: 0;
+        margin: 250px auto 0 auto;
+        width: 85%;
+        z-index: 88;
+    }
+
+    .text_contact {
+        position: absolute;
+        width: 80%;
+        margin-left: 10%;
+        z-index: 0;
+    }
+
+    .judul_contact {
+        position: relative;
+        bottom: 250px;
+        margin-top: 90px;
+    }
+    
+    .alamat {
+        position: relative;
+        bottom: 250px;
+    }
+
+    .jam_buka {
+        position: relative;
+        bottom: 250px;
+    }
+
+    .sosmed {
+        position: relative;
+        top: 200px;
+    }
+
+    .order_now button {
+        position: relative;
+        top: 200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gmap_canvas {
+        left: 0;
+        top: 120px;
+        margin: 220px auto 0 auto;
+        width: 85%;
+    }
+
+    .titik_dua {
+        font-size: 18px;
+        bottom: 230px;
+    }
+
+    .judul_contact {
+        font-size: 16px;
+        bottom: 230px;
+    }
+    
+    .alamat {
+        font-size: 14px;
+        bottom: 230px;
+    }
+
+    .jam_buka {
+        font-size: 14px;
+        bottom: 230px;
+    }
+
+    .sosmed {
+        top: 220px;
+    }
+
+    .order_now button {
+        top: 220px;
+    }
+}
+
+@media only screen and (max-width: 720px) { 
+    .hero .title_contact {
+      font-size: 23px !important;
+      margin-left: 15px;
+    }
+
+    .hero .p_contact {
+        font-size: 10px;
+        margin-top: 3px;
+      }
+      
+  }

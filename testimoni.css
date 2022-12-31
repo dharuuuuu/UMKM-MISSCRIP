@@ -1,0 +1,27 @@
+.container_testimoni {
+    background-color: #ffbd59;
+    clip-path: polygon(65% 5%, 100% 10%, 100% 90%, 35% 95%, 0 90%, 0 10%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.container_testimoni img {
+    width: 50%;
+    margin: 40px 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container_testimoni img {
+        width: 70%;
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container_testimoni img {
+        width: 100%;
+        margin: 40px 0;
+    }
+}
